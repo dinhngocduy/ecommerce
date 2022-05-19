@@ -1,0 +1,30 @@
+.login__logo {
+  object-fit: contain;
+  height: 200px !important;
+  margin-top: 30px;
+  margin-left: 50%;
+}
+.login {
+  text-align: center;
+  padding-right: 35%;
+}
+.login__container {
+  border: 1.5px solid lightgray;
+  width: 70% !important;
+
+  padding-top: 30px;
+  box-sizing: border-box;
+
+  padding-bottom: 30px;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.login__warning {
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

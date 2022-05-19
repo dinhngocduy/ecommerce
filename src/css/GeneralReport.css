@@ -1,0 +1,73 @@
+.generalReport {
+  color: white !important;
+
+  margin-bottom: 40px;
+}
+.upperMenu1 {
+  background-color: rgb(240, 173, 79);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.upperMenu2 {
+  background-color: rgb(66, 139, 202);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.upperMenu3 {
+  background-color: rgb(92, 184, 92);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.menuReport {
+  border: 1px solid rgb(240, 173, 79);
+}
+
+.generalReport__userIcon {
+  color: white !important;
+  font-size: 5rem !important;
+}
+.menuData___Number {
+  font-size: 3rem;
+}
+.menuAddProduct {
+  color: rgb(240, 173, 79);
+  padding: 10px 2% 10px 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.menuAddProduct__Link {
+  color: rgb(240, 173, 79) !important;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 480px) {
+  .generalReport {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .generalReport {
+    display: flex;
+    justify-content: space-around;
+  }
+  .menuReport {
+    border: 1px solid rgb(240, 173, 79);
+    width: 20%;
+  }
+  .menuReport1 {
+    width: 20%;
+  }
+}

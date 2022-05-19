@@ -1,0 +1,18 @@
+.comment {
+  padding: 20px 3% 10px 3%;
+  background-color: rgb(15, 44, 44);
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 6.4%;
+  margin-bottom: 20px;
+  width: 70%;
+  border-radius: 15px;
+}
+.comment__user {
+  display: flex;
+  align-items: center;
+}
+.comment__userAvatar {
+  font-size: 3rem !important;
+  margin-right: 1%;
+}

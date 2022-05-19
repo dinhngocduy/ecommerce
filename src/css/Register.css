@@ -1,0 +1,43 @@
+.register__logo {
+  object-fit: contain;
+  height: 200px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 50%;
+}
+.register {
+  text-align: center;
+  padding-right: 30%;
+  margin-bottom: 200px;
+}
+.welcome {
+  margin-left: 50%;
+}
+.register__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  border: 1.5px solid lightgray;
+  width: 70%;
+  margin-left: 40%;
+  padding-top: 30px;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70%;
+}
+.register__warning {
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.register__alert {
+  margin-top: 20px;
+}

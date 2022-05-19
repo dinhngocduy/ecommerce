@@ -1,0 +1,45 @@
+.product {
+  width: 25rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 650px;
+  color: black;
+}
+.product__button {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.product__Link {
+  text-decoration: none !important;
+  color: black;
+}
+Button {
+  padding: 10px 20px 10px 20px !important;
+}
+.product__price {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+.product__salePrice {
+  color: red;
+  font-size: 2rem !important;
+}
+.product__initialPrice {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.product__title {
+  height: 70px;
+}
+@media only screen and (max-width: 400px) {
+  .product {
+    width: 18rem;
+  }
+  .deleteButton {
+    margin-top: 20px;
+  }
+}

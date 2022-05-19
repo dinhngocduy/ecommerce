@@ -1,0 +1,9 @@
+.newArrivals {
+  text-align: center;
+}
+
+.newArrivals__title {
+  font-weight: 800;
+  font-size: 2rem;
+  text-decoration: underline;
+}

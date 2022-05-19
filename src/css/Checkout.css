@@ -1,0 +1,22 @@
+.checkout__ad {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 20px;
+}
+.checkout {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  padding: 20px;
+}
+.checkout__title {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .checkout {
+    display: flex;
+    flex-direction: row;
+  }
+}

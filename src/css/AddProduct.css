@@ -1,0 +1,11 @@
+.addProduct form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.addProduct__options {
+  width: 100%;
+}
+.addProduct__productInput {
+  margin-bottom: 15px;
+}

@@ -1,0 +1,14 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.page-link:hover {
+  cursor: pointer;
+}
+.page-link {
+  color: black;
+}
+.page-item a.active {
+  background-color: black;
+  color: white;
+}

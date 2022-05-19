@@ -1,0 +1,33 @@
+.checkoutProduct {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid gray;
+
+  margin-top: 50px;
+}
+.checkoutProduct__img {
+  object-fit: contain;
+  width: 100%;
+  margin-right: 50px;
+}
+.checkoutProduct__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.checkoutProduct__title {
+  font-weight: 800;
+}
+.checkoutProduct__price {
+  font-weight: 700;
+}
+@media only screen and (min-width: 700px) {
+  .checkoutProduct {
+    display: flex;
+    flex-direction: row;
+  }
+  .checkoutProduct__img {
+    width: 30%;
+  }
+}

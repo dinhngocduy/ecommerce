@@ -1,0 +1,28 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15rem;
+  padding: 1.5rem;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+.subtotal__button {
+  width: 100%;
+}
+.text-center {
+  margin-top: 7px;
+}
+@media only screen and (min-width: 500px) {
+  .subtotal {
+    width: 20rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .subtotal {
+    width: 25rem;
+    margin-left: 3rem;
+  }
+}

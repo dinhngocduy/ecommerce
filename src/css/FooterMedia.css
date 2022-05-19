@@ -1,0 +1,39 @@
+.footerMedia {
+  background-color: black;
+  width: 100%;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.footerMedia__icons {
+  width: 40px !important;
+  height: 40px !important;
+  color: white;
+}
+#footerMedia__iconFacebook {
+  background-color: rgb(59, 89, 151);
+}
+#footerMedia__iconInstagram {
+  background-color: rgb(195, 42, 163);
+}
+#footerMedia__iconYoutube {
+  background-color: rgb(255, 10, 0);
+}
+#footerMedia__iconTwitter {
+  background-color: rgb(25, 118, 210);
+}
+@media only screen and (min-width: 550px) {
+  .footerMedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footerMedia__icons {
+    width: 40px !important;
+    height: 40px !important;
+    color: white;
+    margin: 0 1rem 0 1rem;
+  }
+}

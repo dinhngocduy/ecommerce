@@ -1,0 +1,41 @@
+.comments__title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 15px 0 15px 0;
+  box-sizing: border-box;
+}
+.comments {
+  border: 1px solid lightgray;
+  width: 60%;
+  margin: auto;
+}
+form {
+  display: flex;
+  margin-left: 2%;
+  margin-bottom: 30px;
+}
+.comments__input {
+  width: 100%;
+  background-color: rgb(58, 59, 60);
+  color: white;
+  height: 50px;
+  width: 71.5%;
+  border-radius: 15px;
+}
+.comments__input::placeholder {
+  color: white;
+}
+.userIcon {
+  font-size: 50px !important;
+}
+.comment__send {
+  font-size: 50px !important;
+  margin-left: 1%;
+}
+.comment__send:hover {
+  cursor: pointer;
+}
