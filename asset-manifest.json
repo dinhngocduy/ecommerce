@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ecommerce/static/css/main.3288153c.css",
+    "main.js": "/ecommerce/static/js/main.0d7742a1.js",
+    "static/js/787.dcc73137.chunk.js": "/ecommerce/static/js/787.dcc73137.chunk.js",
+    "static/media/converseBanner.bmp": "/ecommerce/static/media/converseBanner.eac95487777f45469c36.bmp",
+    "static/media/allProductBanner.bmp": "/ecommerce/static/media/allProductBanner.7c6e15f7bcc054451bed.bmp",
+    "static/media/saleBanner.bmp": "/ecommerce/static/media/saleBanner.e46520fd1033efa2d971.bmp",
+    "static/media/vansBanner.bmp": "/ecommerce/static/media/vansBanner.9a75a55336ea38f9ff27.bmp",
+    "static/media/Ad.bmp": "/ecommerce/static/media/Ad.e5027a1ba095cbe3b495.bmp",
+    "static/media/banner3.webp": "/ecommerce/static/media/banner3.f6613e71a5813fdfdad9.webp",
+    "static/media/banner1.jpg": "/ecommerce/static/media/banner1.551fec91c85877ccf7f9.jpg",
+    "static/media/labryLogo.png": "/ecommerce/static/media/labryLogo.e54b4075c2e1ce21b885.png",
+    "static/media/banner.jpg": "/ecommerce/static/media/banner.6229b7b0c6c0d02a67c3.jpg",
+    "static/media/logo.png": "/ecommerce/static/media/logo.904bad7d9f0732aae49b.png",
+    "static/media/van.webp": "/ecommerce/static/media/van.a366e4653b4406ce5098.webp",
+    "static/media/loginLogo.svg": "/ecommerce/static/media/loginLogo.8a708a0e0e9afcef8ab2be41c10b3ffb.svg",
+    "static/media/converse.webp": "/ecommerce/static/media/converse.553f0e1737301a0337c4.webp",
+    "index.html": "/ecommerce/index.html",
+    "main.3288153c.css.map": "/ecommerce/static/css/main.3288153c.css.map",
+    "main.0d7742a1.js.map": "/ecommerce/static/js/main.0d7742a1.js.map",
+    "787.dcc73137.chunk.js.map": "/ecommerce/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3288153c.css",
+    "static/js/main.0d7742a1.js"
+  ]
+}
