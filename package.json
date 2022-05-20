@@ -2,7 +2,7 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dinhngocduy.github.io/ecommerce/",
+  "homepage": "https://dinhngocduy.github.io/ecommerce",
   "dependencies": {
     "@mui/icons-material": "^5.4.4",
     "@testing-library/jest-dom": "^5.16.2",
