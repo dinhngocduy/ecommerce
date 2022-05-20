@@ -2,6 +2,7 @@
   "name": "ecommerce",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dinhngocduy.github.io/ecommerce/",
   "dependencies": {
     "@mui/icons-material": "^5.4.4",
     "@testing-library/jest-dom": "^5.16.2",
@@ -13,6 +14,7 @@
     "express": "^4.17.3",
     "firebase": "^9.6.7",
     "flat-carousel": "0.0.1",
+    "gh-pages": "^4.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.0",
@@ -40,7 +42,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
